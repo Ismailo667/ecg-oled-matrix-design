@@ -103,225 +103,139 @@ To control the quality of the depositions, the growth kinetics of each layer wer
 
 After deposition of the final metallic layer (aluminum cathode), the organic stack is complete. The resulting OLED matrix is thus ready for encapsulation and characterization.
 
-
-```
-La figure ci-dessous présente la matrice réalisée à l’issue du procédé de fabrication.
-```
-
-```
-Figure II.11– Evolution de la vitesse du dépôt et le niveau du vide en fonction du
-temps de process (Couche HTL)
-```
-```
-Figure II.12– Matrice OLED finale
-```
-Pour valider la qualité des dépôts réalisés, une série de caractérisations a été effectuée
-sur certaines couches clés du dispositif. La section suivante présente les mesures d’épais-
-seur obtenues pour l’ITO, l’aluminium, ainsi que pour la couche de transport d’électrons
-(ETL), à l’aide de techniques adaptées.
-
-###### 2.2 Caractérisations des épaisseurs : ITO, ETL et aluminium
-
-Les couches d’ITO, d’ETL (TPBi) et d’aluminium remplissent des fonctions essen-
-tielles dans l’architecture OLED : l’ITO assure l’injection des trous depuis l’anode trans-
-parente, l’ETL transporte les électrons jusqu’à la zone de recombinaison tout en bloquant
-les trous, et l’aluminium joue le rôle de cathode métallique.
-
-Deux techniques complémentaires ont été utilisées pour la caractérisation des épais-
-seurs déposées : laprofilométrie mécaniqueavec le systèmeBruker Dektak XTL, et
+The figure below shows the matrix obtained at the end of the fabrication process.
 
 
-l’ellipsométrie spectroscopiqueavec le dispositifGES 5.
+<img width="948" height="514" alt="image" src="https://github.com/user-attachments/assets/2d209941-52b6-497c-91cf-c452819baf78" />
 
-```
-Figure II.13– L’ellipsomètre GES 5 Figure II.14– Profileur à stylet
-```
-Le profileur à stylet repose sur le déplacement vertical d’un stylet en contact avec la
-surface, permettant de mesurer des hauteurs d’étape avec une résolution angströmique.
-L’ellipsomètre GES 5, quant à lui, mesure les modifications d’état de polarisation d’une lu-
-mière réfléchie par l’échantillon ; les paramètres ellipsométriquesΨet∆sont utilisés pour
-en déduire l’épaisseur et l’indice optique des couches via des modèles de régression. Bien
-que les deux approches aient été explorées, seuls les résultats obtenus avec le profilomètre
-sont présentés dans ce rapport.
+*Figure II.11 – Evolution of deposition rate and vacuum level as a function of process time (HTL layer)*
 
-```
-Figure II.15– Profile 2D de la matrice OLED
-```
-La figure ci-dessus représente une carte 2D d’homogénéité d’épaisseur de la matrice
-OLED, obtenue à partir de plusieurs lignes de mesure réalisées avec le profileur à stylet.
-Chaque ligne horizontale correspond à un profil d’épaisseur mesuré sur une trajectoire
-latérale, et les couleurs traduisent les variations d’épaisseur en angströms (Å). Les zones
-de couleur homogène témoignent d’un dépôt régulier, tandis que les variations marquées
-indiquent des non-uniformités. Les valeurs très basses correspondent probablement à des
+<img width="476" height="518" alt="image" src="https://github.com/user-attachments/assets/d1d32651-773c-4c1f-bd12-4cf1983067b4" />
+
+*Figure II.12 – Final OLED matrix*
 
 
-zones où le stylet n’a pas pu suivre correctement la surface — cela peut être dû à un
-mauvais contact, à des irrégularités du film ou à des transitions abruptes en bordure de
-zone mesurée. Ces artefacts ne reflètent pas fidèlement l’épaisseur réelle du matériau et
-peuvent être exclues de l’analyse pour ne conserver que les zones représentatives.
+To validate the quality of the depositions, a series of characterizations was carried out on key layers of the device. The following section presents the thickness measurements obtained for ITO, aluminum, and the electron transport layer (ETL), using appropriate techniques.
 
-Après avoir évalué l’homogénéité du dépôt par des mesures d’épaisseur, nous nous
-intéressons à présent aux performances électriques et optiques de la matrice OLED. La
-caractérisation courant-densité, tension et luminance (J–V–L) permet de quantifier son
-comportement électroluminescent et d’en déduire des paramètres clés tels que le rende-
-ment externe ou la tension de seuil.
+###### 2.2 Thickness Characterizations: ITO, ETL, and Aluminum
 
-###### 2.3 Caractérisation courant-densité, tension et luminance (J–V–L)
+The ITO, ETL (TPBi), and aluminum layers fulfill essential functions in the OLED architecture: ITO ensures hole injection from the transparent anode, ETL transports electrons to the recombination zone while blocking holes, and aluminum serves as the metallic cathode.  
 
-Les performances de la matrice OLED ont été évaluées par la mesure de la densité
-de courantJ, de la luminanceLet du rendement lumineux externe ηlum en fonction
-de la tension appliquéeV. Ces courbes permettent d’analyser le transport de charge, le
-comportement optoélectronique du dispositif, et d’identifier le point de fonctionnement
-optimal.
+Two complementary techniques were used for the characterization of deposited thicknesses: **mechanical profilometry** with the Bruker Dektak XTL system, and **spectroscopic ellipsometry** with the GES 5 setup.
 
-```
-Figure II.16– Courbe J–V-L en échelle logarithmique
-```
-L’analyse de la courbeJpVqen échelle logarithmique révèle deux régimes distincts :
-à faible tension, le courant suit un comportement ohmique, caractérisé par une relation
-linéaire entreJetV, indiquant une conduction dominée par l’injection de charges. Lorsque
-V dépasse une certaine tension critique, le courant devient proportionnel àV^2 , régime
-décrit par la loi de Mott-Gurney (SCLC, Space-Charge Limited Current). Cette transition
-marque le passage à un transport limité par la mobilité des porteurs dans les couches
-organiques.
+<img width="533" height="407" alt="image" src="https://github.com/user-attachments/assets/609989b2-a178-4726-ba11-a81eccb03f82" />
+
+*Figure II.13 – GES 5 Ellipsometer*
+
+<img width="570" height="317" alt="image" src="https://github.com/user-attachments/assets/e3509cc0-c405-4f1f-95f8-3251499c2aa7" />
+
+*Figure II.14 – Stylus profilometer*
 
 
-```
-En appliquant la loi de Mott-Gurney :
-```
-```
-J“
-```
-```
-9
-8
-```
-```
-εrε 0 μ
-```
-```
-V^2
-d^3
-```
-avec :
-— εr“ 3. 6 (permittivité relative des couches organiques),
-— ε 0 “ 8. 85 ˆ 10 ́^12 F{m,
-— d“100 nm“ 100 ˆ 10 ́^9 m,
-— J“ 2 , 8 ˆ 10 ́^5 A{cm^2 ,
-— V “5 V.
-En injectant ces valeurs dans l’équation de Mott-Gurney, on obtient une mobilité
-moyenne des porteurs de charge :
+The stylus profilometer relies on the vertical displacement of a stylus in contact with the surface, allowing measurement of step heights with angstrom-level resolution. The GES 5 ellipsometer, on the other hand, measures changes in the polarization state of light reflected by the sample; the ellipsometric parameters Ψ and ∆ are then used to deduce the thickness and refractive index of the layers through regression models.  
 
-```
-μ“ 3 , 12 ˆ 10 ́^13 m^2 {V ̈s
-```
-Cette valeur très faible suggère que le transport de charges est fortement limité par
-la mobilité intrinsèque des porteurs dans les matériaux organiques, ce qui constitue un
-facteur limitant pour les performances globales de l’OLED.
-Le rendement lumineux externe, notéηlum, est défini par la relation suivante :
+Although both approaches were explored, only the results obtained with the profilometer are presented in this report.
 
-```
-ηlum“
-```
-```
-L
-J
-```
-```
-(1)
-```
-En tenant compte de la zone stable de fonctionnement de l’OLED, nous avons dé-
-terminé expérimentalement un rendement lumineux externe optimalηlumde125 Cd/A,
-obtenu autour de8 V, pour une luminance mesurée significative et un courant d’injec-
-tion stable. Cette valeur correspond à un bon compromis entre efficacité énergétique et
-intensité lumineuse, et a été retenue commepoint de fonctionnement de référence.
+<img width="821" height="500" alt="image" src="https://github.com/user-attachments/assets/5959d099-3693-4f6b-925f-3c2581378083" />
 
-Maintenant que nous avons caractérisé les performances optoélectroniques de la ma-
-trice OLED et des électrodes ECG, nous nous intéressons désormais à la partie électro-
-nique et logicielle du projet. Cette section décrit l’architecture du circuit de conditionne-
-ment du signal ECG, ainsi que la programmation du microcontrôleur en charge de son
-acquisition, traitement et affichage.
+Figure II.15 – 2D Profile of the OLED Matrix
 
-## III Électronique et Programmation
+The figure above shows a 2D thickness homogeneity map of the OLED matrix, obtained from multiple measurement lines taken with the stylus profilometer. Each horizontal line corresponds to a thickness profile measured along a lateral path, and the colors represent thickness variations in angstroms (Å). Homogeneous color regions indicate uniform deposition, while pronounced variations highlight non-uniformities. Very low values likely correspond to areas where the stylus could not properly track the surface — this may be due to poor contact, film irregularities, or abrupt transitions at the edges of the measured zone. These artifacts do not accurately reflect the actual material thickness and can be excluded from the analysis to retain only representative areas.
 
-#### 1 Electronique et Programmation (la "Machine")
+After evaluating the deposition homogeneity through thickness measurements, we now turn to the electrical and optical performance of the OLED matrix. The current density–voltage–luminance (J–V–L) characterization makes it possible to quantify its electroluminescent behavior and deduce key parameters such as external efficiency or threshold voltage.
 
-Le circuit électronique utilisé pour l’acquisition du signal ECG repose sur la carte
-OCASS ECG, développée spécifiquement pour la mesure biopotentielle. Cette carte in-
-tègre un amplificateur instrumentation couplé à des étages de filtrage analogiques per-
-mettant d’extraire le signal ECG à partir d’électrodes posées sur la peau.
+###### 2.3 Current Density–Voltage–Luminance (J–V–L) Characterization
 
-Pour alimenter le circuit OCASS ECG, une tension continue est appliquée entre le
-point de testTP7(positif) et leGND (masse) de la carte. Une première vérification
+The performance of the OLED matrix was evaluated by measuring the current density J, the luminance L, and the external luminous efficiency ηlum as a function of the applied voltage V. These curves allow for the analysis of charge transport, the device’s optoelectronic behavior, and the identification of the optimal operating point.
+
+<img width="826" height="583" alt="image" src="https://github.com/user-attachments/assets/b809c72d-4b8e-4402-87d3-b4e9002101e5" />
+
+Figure II.16 – J–V–L curve in logarithmic scale
+
+Analysis of the J–V curve in logarithmic scale reveals two distinct regimes:  
+- At low voltage, the current follows ohmic behavior, characterized by a linear relationship between J and V, indicating conduction dominated by charge injection.  
+- When V exceeds a certain critical threshold, the current becomes proportional to V², a regime described by the Mott–Gurney law (SCLC, Space-Charge Limited Current).  
+
+This transition marks the shift to transport limited by carrier mobility in the organic layers.
 
 
-```
-Figure III.1– La carte OCASS ECG
-```
-expérimentale a été réalisée en connectant la sortie analogique du circuit OCASS à un
-oscilloscope.
+By applying the Mott–Gurney law:
 
-```
-Figure III.2– Première détection du
-signal ECG Figure III.3– Forme d’un signal ECG
-```
-Le signal ECG a pu être clairement détecté, avec une forme reconnaissable du complexe
-P-QRS-T, caractéristique du rythme cardiaque humain. Cependant, cette mesure initiale
-met également en évidence la présence debruit parasite, visible notamment sur les
-flancs montants et descendants du signal. Ce bruit peut être attribué à plusieurs sources :
+$$
+J = \frac{9}{8} \, \varepsilon_r \varepsilon_0 \mu \, \frac{V^2}{d^3}
+$$
 
-```
-— mouvements du sujet ou mauvaise qualité du contact des électrodes,
-— couplage capacitif avec le secteur,
-— interférences électromagnétiques ambiantes.
-```
-Ainsi, bien que le circuit OCASS fournisse un signal exploitable, un traitement
-numérique complémentaire est nécessaire pour améliorer la stabilité du signal et permettre
-une détection fiable du rythme cardiaque en aval.
+with:  
+- $\varepsilon_r = 3.6$ (relative permittivity of the organic layers),  
+- $\varepsilon_0 = 8.85 \times 10^{-12} \, \text{F/m}$,  
+- $d = 100 \, \text{nm} = 100 \times 10^{-9} \, \text{m}$,  
+- $J = 2.8 \times 10^{-5} \, \text{A/cm}^2$,  
+- $V = 5 \, \text{V}$.  
+
+By substituting these values into the Mott–Gurney equation, the average charge carrier mobility is obtained as:
+
+$$
+\mu = 3.12 \times 10^{-13} \ \text{m}^2 \ / \ (\text{V·s})
+$$
+
+This very low value suggests that charge transport is strongly limited by the intrinsic carrier mobility in organic materials, which is a limiting factor for the overall OLED performance.  
+
+The external luminous efficiency, denoted $\eta_{\text{lum}}$, is defined by the following relation:
+
+$$
+\eta_{\text{lum}} = \frac{L}{J} 
+$$
+
+Taking into account the stable operating region of the OLED, we experimentally determined an optimal external luminous efficiency $\eta_{\text{lum}}$ of **125 Cd/A**, obtained around **8 V**, with significant measured luminance and stable injection current. This value represents a good compromise between energy efficiency and light intensity, and was chosen as the reference operating point.  
+
+Now that we have characterized the optoelectronic performance of the OLED matrix and ECG electrodes, we turn to the electronic and software aspects of the project. This section describes the architecture of the ECG signal conditioning circuit, as well as the programming of the microcontroller responsible for its acquisition, processing, and display.
+
+## III Electronics and Programming
+
+#### 1 Electronics and Programming (the "Machine")
+
+The electronic circuit used for ECG signal acquisition is based on the **OCASS ECG board**, specifically developed for biopotential measurement. This board integrates an instrumentation amplifier coupled with analog filtering stages, allowing the extraction of the ECG signal from electrodes placed on the skin.
+
+To power the OCASS ECG circuit, a DC voltage is applied between the test point **TP7** (positive) and the board’s **GND** (ground). An initial experimental verification was carried out by connecting the analog output of the OCASS circuit to an oscilloscope.
+
+<img width="490" height="501" alt="image" src="https://github.com/user-attachments/assets/b5eadcc3-401a-45a2-894b-0276920865a2" />
+
+Figure III.1 – The OCASS ECG board
+
+<img width="584" height="436" alt="image" src="https://github.com/user-attachments/assets/3ee5a1e4-40b9-4fdd-9e69-50268920c7c3" />
+
+Figure III.2 – First detection of the ECG signal
+
+<img width="593" height="556" alt="image" src="https://github.com/user-attachments/assets/c40c3160-4de2-4c00-9b08-aa78848de33e" />
+
+Figure III.3 – Shape of an ECG signal
+
+The ECG signal was clearly detected, with a recognizable shape of the **P–QRS–T complex**, characteristic of human cardiac rhythm. However, this initial measurement also highlighted the presence of **parasitic noise**, particularly visible on the rising and falling edges of the signal. This noise can be attributed to several sources:
+
+- subject movement or poor electrode–skin contact,  
+- capacitive coupling with mains electricity,  
+- ambient electromagnetic interference.  
+
+Thus, although the OCASS circuit provides an exploitable signal, additional **digital processing** is necessary to improve signal stability and enable reliable downstream detection of the cardiac rhythm.
 
 
-###### 1.1 Filtrage des signaux après acquisition
+###### 1.1 Signal Filtering After Acquisition
 
-```
-Le signal ECG issu de la carte OCASS, bien que physiologiquement exploitable, reste
-fortement bruité en raison de différents parasites : interférences électromagnétiques, mou-
-vements du sujet, ou fluctuations de l’alimentation. Pour obtenir un signal utilisable nu-
-mériquement, un prétraitement numérique a été mis en œuvre dès la phase d’acquisition.
-```
-```
-Le premier étage de traitement repose sur unfiltre numérique de type FIR(Finite
-Impulse Response) conçu sur50 coefficients, adaptés à une fréquence d’échantillonnage
-de500 Hz. Ce filtre agit comme unpasse-bandeciblant les fréquences comprises entre
-1 Hzet40 Hz, plage typique de l’activité cardiaque. Il permet de supprimer les compo-
-santes continues (bruit de bas niveau, dérive DC) ainsi que les hautes fréquences (bruit
-haute fréquence, interférences 50 Hz), tout en conservant les caractéristiques temporelles
-du signal ECG comme les pics R.
-```
-```
-À la suite du filtrage FIR, unfiltre de Kalmanest appliqué pour optimiser le lissage
-du signal. Ce filtre adaptatif, fondé sur un modèle probabiliste, estime dynamiquement
-la valeur du signal en tenant compte de l’incertitude de mesure (bruit) et de l’évolution
-attendue du signal ECG. Il s’agit d’une solution particulièrement efficace dans les envi-
-ronnements bruités, car elle conserve les transitions rapides (pics R) tout en réduisant les
-fluctuations indésirables.
-```
-#### 2 Programmation embarquée du microcontrôleur
+The ECG signal from the OCASS board, although physiologically exploitable, remains strongly affected by noise due to various interferences: electromagnetic disturbances, subject movement, or power supply fluctuations. To obtain a digitally usable signal, preprocessing was implemented directly during acquisition.
 
-```
-Le traitement numérique du signal ECG est entièrement réalisé à bord du microcon-
-trôleur STM32 via le logiciel STM32CubeIDE. La configuration des périphériques ADC,
-Timers et UART a été effectuée à l’aide du CubeMX.
-```
-```
-Le signal analogique issu de la carte OCASS est numérisé via le convertisseur analogique-
-numériqueADC1, configuré en déclenchement externe parTimer 6pour échantillonner
-le signal à une fréquence fixe (ici 500 Hz). Le timer agit comme une horloge d’acquisition,
-déclenchant automatiquement une conversion ADC à chaque période.
-```
-```
-Le premier traitement appliqué est unfiltre passe-bande FIRd’ordre 50, défini par
-un tableau de coefficients constants adapté à la bande passante du signal ECG.
-La fonctionfir()est implémentée comme suit :
+The first processing stage relies on a **Finite Impulse Response (FIR) digital filter** designed with **50 coefficients**, adapted to a sampling frequency of **500 Hz**. This filter operates as a **band-pass filter** targeting frequencies between **1 Hz and 40 Hz**, which is the typical range of cardiac activity. It removes DC components (low-level noise, DC drift) and high frequencies (high-frequency noise, 50 Hz interference), while preserving the temporal characteristics of the ECG signal, such as the R-peaks.
+
+Following the FIR filtering, a **Kalman filter** is applied to further smooth the signal. This adaptive filter, based on a probabilistic model, dynamically estimates the signal value by considering both measurement uncertainty (noise) and the expected evolution of the ECG signal. It is particularly effective in noisy environments, as it preserves fast transitions (R-peaks) while reducing unwanted fluctuations.
+
+#### 2 Embedded Programming of the Microcontroller
+
+The digital processing of the ECG signal is fully implemented on board the **STM32 microcontroller** using the **STM32CubeIDE** software. Peripheral configuration for ADC, Timers, and UART was performed with **CubeMX**.
+
+The analog signal from the OCASS board is digitized via the **ADC1 analog-to-digital converter**, configured with external triggering by **Timer 6** to sample the signal at a fixed frequency (here, 500 Hz). The timer acts as an acquisition clock, automatically triggering an ADC conversion at each period.
+
+The first processing applied is a **50th-order FIR band-pass filter**, defined by a table of constant coefficients adapted to the ECG signal’s bandwidth.  
+The `fir()` function is implemented as follows:
+
 ```
 1 float fir(float newValue) {
 2 ...
@@ -331,139 +245,114 @@ La fonctionfir()est implémentée comme suit :
 5 }
 
 ```
-Listing 1 – Implémentation du filtre FIR
-```
-```
-Pour lisser davantage le signal tout en conservant la dynamique des pics, un filtre
-de Kalman est appliqué sur la sortie FIR. Le filtre réduit efficacement le bruit tout en
-estimant la tension réelle du cœur :
+Listing 1 – FIR Filter Implementation
+
+To further smooth the signal while preserving the dynamics of the peaks, a **Kalman filter** is applied to the FIR output. The filter effectively reduces noise while estimating the true cardiac voltage:  
 ```
 1 float kalman_adc = kalman_filter(volt);
 
 ```
-Listing 2 – Appel au filtre de Kalman
-```
+Listing 2 – Call to the Kalman Filter
 
-```
-Le signal filtré est ensuite utilisé pour détecter les pics R (lorsque la tension dépasse
-un seuil fixé, ici 2.0 V). Chaque pic est interprété comme un battement cardiaque :
+The filtered signal is then used to detect **R-peaks** (when the voltage exceeds a fixed threshold, here **2.0 V**). Each peak is interpreted as a heartbeat:  
 ```
 1 if (amplifiedVoltage1 >= 2.0 && (currentTime - lastPeakTime > 200)) {
 2 ledBlinkCount ++;
 3 }
 
 ```
-Listing 3 – Détection de pics R
-```
-```
-Le nombre de pics R détectés est converti en BPM toutes les secondes, et une moyenne
-glissante est calculée sur les 5 dernières valeurs pour lisser l’affichage :
+Listing 3 – R-Peak Detection
+
+The number of detected R-peaks is converted into **BPM** every second, and a sliding average is computed over the last 5 values to smooth the display.
 ```
 1 uint32_t count = ledBlinkCount * 60;
 2 ajouter_lastcount(lastcount);
 3 float moyenne_lastcount = calculer_moyenne_lastcount ();
 4 MATRIX_DisplayMessage (0, bpm_str , strlen(bpm_str));
+```
+Listing 4 – BPM Calculation and Display on LED Matrix
 
-```
-Listing 4 – Calcul du BPM et affichage sur matrice LED
-```
-```
-Enfin, les trois signaux (brut, FIR, Kalman) sont envoyés via l’UART vers un logiciel
-commeSerialPlotpour analyse graphique en temps réel :
+Finally, the three signals (raw, FIR, Kalman) are sent via **UART** to a software tool such as **SerialPlot** for real-time graphical analysis:  
 ```
 1 sprintf(MSG , "%.4f;%.4f;%.4f\r\n", voltage , volt , amplifiedVoltage1);
 2 HAL_UART_Transmit (&huart1 , (uint8_t *)MSG , strlen(MSG), HAL_MAX_DELAY);
 
 ```
-Listing 5 – Transmission UART vers SerialPlot
-```
-```
-Figure III.4– Signal brut
-```
-```
-Figure III.5– Signal filtré FIR
-```
-```
-Figure III.6– Signal lissé Kalman
-```
+Listing 5 – UART Transmission to SerialPlot
 
-###### 2.1 Matrice OLEDs (l "Interface")
+<img width="1035" height="225" alt="image" src="https://github.com/user-attachments/assets/f7ee23e1-09c7-4d77-877c-770a76c0d35e" />
 
-Le circuit imprimé présenté ci-dessous permet de piloter une matrice LED 8x8 via
-une interface SPI. Il repose principalement sur le circuit intégréMAX7219, un pilote de
-matrice LED capable de contrôler jusqu’à 64 LED de manière séquentielle.
-Le circuit permet ainsi l’affichage dynamique de données, telles que le rythme cardiaque
-mesuré, en défilant de droite à gauche sur la matrice LED.
+Figure III.4– Raw signal
 
-```
-Figure III.7– Circuit imprimé de la
-carte de commande de la matrice OLED Figure III.8– Forme d’un signal ECG
-```
-```
-L’affichage du BPM s’effectue grâce à la fonction suivante dans le code embarqué :
+<img width="1035" height="195" alt="image" src="https://github.com/user-attachments/assets/1826c9cf-d8b9-488f-bd0b-8659ebf8f61e" />
+
+Figure III.5– FIR-filtered signal
+
+<img width="1036" height="189" alt="image" src="https://github.com/user-attachments/assets/b251390f-f9ee-420b-9fc2-b271c6a22615" />
+
+Figure III.6– Kalman-smoothed signal
+
+
+###### 2.1 OLED Matrix (the "Interface")
+
+The printed circuit board shown below drives an 8×8 LED matrix via an SPI interface. It is mainly based on the **MAX7219** integrated circuit, a LED matrix driver capable of sequentially controlling up to 64 LEDs.  
+This circuit enables the dynamic display of data, such as the measured heart rate, scrolling from right to left across the LED matrix.
+
+<img width="583" height="317" alt="image" src="https://github.com/user-attachments/assets/98adff76-bf0f-4cd7-8c63-4692c433d757" />
+
+Figure III.7– PCB of the OLED matrix control board
+
+<img width="448" height="377" alt="image" src="https://github.com/user-attachments/assets/4aebf1a3-df4b-4185-9115-ba1e9bd07a3d" />
+
+Figure III.8– Shape of an ECG signal
+
+The BPM display is performed using the following function in the embedded code:  
 ```
 MATRIX_DisplayMessage(0, bpm_str, strlen(bpm_str));
+```
+This instruction sends the string containing the value of the average BPM (calculated over the last 5 measured values) to the LED matrix. The message is updated every second, allowing real-time reading of cardiac activity on the display.
 
-Cette instruction envoie la chaîne contenant la valeur du BPM moyen (calculéè sur
-les 5 dernières valeurs mesurées) à la matrice LED. Le message est actualisé toutes les
-secondes, ce qui permet une lecture en temps réel de l’activité cardiaque sur l’afficheur.
+---
 
 ## IV Conclusion
 
-Ce projet pluridisciplinaire nous a permis de concevoir et de mettre en œuvre une
-chaîne complète de détection, de traitement et d’affichage d’un signal physiologique, en
-l’occurrence le rythme cardiaque. Il a combiné plusieurs domaines allant de la physique
-des matériaux à l’électronique embarquée, en passant par les technologies de fabrication
-en salle blanche.
-Sur le plan technologique, nous avons réalisé des électrodes souples sur un substrat en
-polyimide, adaptées à un usage portable et conformes aux contraintes biomédicales. La fa-
-brication de la matrice OLED, cœur du dispositif d’affichage, a nécessité un enchaînement
-précis de dépôts de couches organiques par évaporation thermique sous vide poussé. La
-qualité de chaque couche (HTL, ETL, Al, ITO, etc.) a été validée par des caractérisations
-métrologiques telles que la profilométrie à stylet et l’ellipsométrie, permettant d’assurer
-l’homogénéité et la performance optoélectronique du dispositif.
-D’un point de vue électronique, nous avons conçu et utilisé un circuit analogique de
-récupération du signal ECG, en l’amplifiant et le conditionnant avant numérisation. Ce
-signal a ensuite été traité numériquement par un microcontrôleur STM32 via une suite de
-filtres numériques (FIR, Kalman), puis analysé afin de détecter les pics R et calculer la
+This multidisciplinary project enabled us to design and implement a complete chain for detecting, processing, and displaying a physiological signal—specifically, the heart rate. It combined multiple fields, ranging from materials physics to embedded electronics, including cleanroom fabrication technologies.  
 
+From a technological standpoint, we fabricated flexible electrodes on a polyimide substrate, suitable for portable use and compliant with biomedical constraints. The fabrication of the OLED matrix, the core of the display device, required a precise sequence of organic layer depositions through high-vacuum thermal evaporation. The quality of each layer (HTL, ETL, Al, ITO, etc.) was validated through metrology techniques such as stylus profilometry and ellipsometry, ensuring the uniformity and optoelectronic performance of the device.  
 
-fréquence cardiaque. Enfin, les résultats ont été affichés dynamiquement sur une matrice
-LED pilotée par SPI, et lissés grâce à des algorithmes embarqués.
-Ce projet nous a permis de mobiliser des compétences transverses en microfabrication,
-instrumentation biomédicale, traitement du signal et programmation embarquée, tout en
-répondant à un enjeu d’ingénierie concret.
-Nous tenons à remercier chaleureusement nos encadrants pour leur disponibilité, leurs
-conseils techniques et leur accompagnement tout au long de cette Unité Projet. Leur
-expertise a été précieuse pour surmonter les défis rencontrés et approfondir notre compré-
-hension de cette interface entre physique appliquée, électronique et sciences du vivant.
+From an electronics perspective, we designed and used an analog circuit to acquire the ECG signal, amplifying and conditioning it prior to digitization. The signal was then digitally processed by an STM32 microcontroller using a chain of digital filters (FIR, Kalman), followed by analysis to detect R-peaks and calculate heart rate. Finally, the results were dynamically displayed on an LED matrix driven by SPI, with smoothing ensured by embedded algorithms.  
+
+This project allowed us to leverage cross-disciplinary skills in microfabrication, biomedical instrumentation, signal processing, and embedded programming, while addressing a concrete engineering challenge.  
+
+We warmly thank our supervisors for their availability, technical guidance, and support throughout this Project Unit. Their expertise was invaluable in overcoming the challenges encountered and deepening our understanding of this interface between applied physics, electronics, and life sciences.
 
 ## V Annexes
 
-#### A. Photo du système complet
+#### A. Picture of the Complete System
 
-```
-Figure V.1– Dispositif ECG
-```
+<img width="582" height="740" alt="image" src="https://github.com/user-attachments/assets/7f0052de-e5ce-43fe-9cb1-4359bd658d54" />
 
-#### B. Courbes complémentaires(Matrice OLED)
+Figure V.1 – ECG Device
 
-```
-Figure V.2– Evolution de la vitesse du dépôt et le niveau du vide en fonction du
-temps de process (Couche HBL)
-```
-```
-Figure V.3– Evolution de la vitesse du dépôt et le niveau du vide en fonction du
-temps de process (Couche MoO3)
-```
+---
 
-Figure V.4– Evolution de la vitesse du dépôt et le niveau du vide en fonction du
-temps de process (Couche ETL)
+#### B. Complementary Curves (OLED Matrix)
 
-Figure V.5– Evolution de la vitesse du dépôt et le niveau du vide en fonction du
-temps de process (Cathode)
+<img width="981" height="545" alt="image" src="https://github.com/user-attachments/assets/174b28c4-ac73-496d-81da-a8d8b9374d01" />
 
+Figure V.2 – Evolution of deposition rate and vacuum level as a function of process time (HBL layer)
 
-## Références
+<img width="976" height="523" alt="image" src="https://github.com/user-attachments/assets/aa254ea5-262b-46c4-a49e-236a515ce53f" />
+
+Figure V.3 – Evolution of deposition rate and vacuum level as a function of process time (MoO₃ layer)
+
+<img width="973" height="530" alt="image" src="https://github.com/user-attachments/assets/67d8128c-dc6a-4e31-8da9-0971768dd4e5" />
+
+Figure V.4 – Evolution of deposition rate and vacuum level as a function of process time (ETL layer)
+
+<img width="983" height="543" alt="image" src="https://github.com/user-attachments/assets/d7ce3cf0-a057-4ddb-8cf5-b86728bf4aa6" />
+
+Figure V.5 – Evolution of deposition rate and vacuum level as a function of process time (Cathode)
+
 
 
