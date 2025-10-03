@@ -1,0 +1,6 @@
+../Core/Src/max7219.c:10:6:max7219_Init	8	static
+../Core/Src/max7219.c:17:6:max7219_SetIntensivity	16	static
+../Core/Src/max7219.c:24:6:max7219_Clean	16	static
+../Core/Src/max7219.c:29:6:max7219_SendData	16	static
+../Core/Src/max7219.c:36:6:max7219_TurnOn	8	static
+../Core/Src/max7219.c:40:6:max7219_TurnOff	8	static
